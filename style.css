@@ -1,0 +1,46 @@
+
+*{
+    background-color: #7594aa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}   
+.cal{
+    background-color: #6e7d88;;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow:  inset 5px 5px 12px #ffffff,5px 5px 12px rgb(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(5,68px);
+ }
+ input{
+    grid-column: span 5;
+    font-size: 50px;
+    text-align: end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: auto;
+    height: 100px;
+    background-color: #6e7d88;
+    box-shadow:  inset -5px -5px 12px #ffffff,inset 5px 12px rgb(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+ }
+button{
+    width: 60px;
+    height: 60px;
+    font-size: large;
+    border: none;
+    border-radius: 50px;
+    box-shadow:  inset 5px 5px 12px #ffffff,5px 5px 12px rgb(0,0,0,.16);
+    background-color: #6e7d88;;
+}
+.EL{
+    width: 260px;
+}
